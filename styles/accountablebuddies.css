@@ -1,17 +1,63 @@
-h1 {
-font-size: 50px;
+/* date created 7-11-18*/
 
-}
+/* Using some basic CSS to modify the text in terms of:
+color, font size, centering it, and making it the full page of a
+mobile phone. */
 
-section {
-height: 100vh;
+#flashMessage {
+color: white;
 text-align: center;
+background-color: purple;
+font-size: 16px;
+  }
 
+h1 {
+font-size: 32px;
 }
+
+/* Using 100vh for full page viewing on mobile*/
+section {
+/* height: 100vh; */
+text-align: center;
+color: blue;
+/* font-size: 65px; */
+}
+
+/* navigation */
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar li {
+  width: 25%;
+  float: left;
+}
+
 
 footer {
 text-align: center;
-  font-size: 25px;
+font-size: 40px;
 color: blue;
+}
+
+@media (max-width: 980px) {
+
+
+  h2 {
+    float: right;
+  font-size: 15px;
+  color: red;
+  }
+
+  h3 {
+    float: right;
+  font-size: 15px;
+  }
+
+  #navbar li {
+    width: 100%;
+    float: none;
+  }
 
 }
