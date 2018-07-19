@@ -8,7 +8,7 @@ mobile phone. */
 color: white;
 text-align: center;
 background-color: purple;
-font-size: 16px;
+font-size: 20px;
   }
 
 h1 {
@@ -54,7 +54,7 @@ padding-top: 40px;
 
 
 
-@media (max-width: 980px) {
+@media (max-width: 780px) {
 
 
 p {
