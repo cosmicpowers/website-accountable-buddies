@@ -47,12 +47,34 @@ padding-top: 40px;
 }
 
 
+.helping-image {
+  max-width: 35rem;
+  margin: 0 auto;
+  display: block;
 
+}
+
+.helping-image2 {
+  max-width: 35rem;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Modifying image for smartphones */
+
+@media only screen and (max-width: 500px) {
+
+.helping-image {
+  max-width: 12rem;
+}
+
+.helping-image2 {
+  max-width: 12rem;
+}
+}
 
 
 /* Everything above is desktop, everything below is roughly ipad or smaller - 980px */
-
-
 
 @media (max-width: 780px) {
 
