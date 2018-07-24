@@ -60,6 +60,12 @@ padding-top: 40px;
   display: block;
 }
 
+.helping-image3 {
+  max-width: 35rem;
+  margin: 0 auto;
+  display: block;
+}
+
 /* Modifying image for smartphones */
 
 @media only screen and (max-width: 500px) {
@@ -69,6 +75,10 @@ padding-top: 40px;
 }
 
 .helping-image2 {
+  max-width: 12rem;
+}
+
+.helping-image3 {
   max-width: 12rem;
 }
 }
