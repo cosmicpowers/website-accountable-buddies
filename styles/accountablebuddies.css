@@ -51,19 +51,21 @@ padding-top: 40px;
   max-width: 35rem;
   margin: 0 auto;
   display: block;
-
+  border-radius: 50%;
 }
 
 .helping-image2 {
   max-width: 35rem;
   margin: 0 auto;
   display: block;
-}
+  border-radius: 50%;
+  }
 
 .helping-image3 {
   max-width: 35rem;
   margin: 0 auto;
   display: block;
+  border-radius: 50%;
 }
 
 /* Modifying image for smartphones */
@@ -71,15 +73,15 @@ padding-top: 40px;
 @media only screen and (max-width: 500px) {
 
 .helping-image {
-  max-width: 12rem;
+  max-width: 15rem;
 }
 
 .helping-image2 {
-  max-width: 12rem;
+  max-width: 15rem;
 }
 
 .helping-image3 {
-  max-width: 12rem;
+  max-width: 15rem;
 }
 }
 
